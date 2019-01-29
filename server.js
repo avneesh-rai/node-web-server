@@ -59,6 +59,12 @@ app.get('/about', (request, response) => {
   });
 });
 
+app.get('/projects', (request, response) => {
+  response.render('project.hbs', {
+    pageTitile: 'Project Page'
+  })
+});
+
 app.get('/bad', (request, response) => {
   response.send({
     errorMessage: 'Server is not able to fufil request'
