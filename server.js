@@ -49,7 +49,7 @@ app.get('/', (request, response) => {
   response.render('home.hbs', {
     pageTitile: 'Home page',
     // currentYear: new Date().getFullYear(),
-    welcomeMessage: 'Welcome to my website'
+    welcomeMessage: 'Welcome to my website Babu'
   });
 });
 
